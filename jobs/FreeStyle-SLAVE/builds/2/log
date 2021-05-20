@@ -1,0 +1,7 @@
+Started by user [8mha:////4Nz4HoTdBaPISlmzQGWW/Aw5sJFfjRg4w0gd5QQIYia7AAAAnx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzeEgZh/dLi1CL9xPLi4qLU1LzEkgwDcwCZIIHPyAAAAA==[0mawssreenath07
+Running as SYSTEM
+Building remotely on [8mha:////4Cfs14vhtbJ5MwZXymL5uYdwWnBkqA/+jfA1S1C2SnfUAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYB/eT83ILSktQi/eKcxLJUcwANUwMbxQAAAA==[0mslave7 (srinath7) in workspace /srinath/workspace/FreeStyle-SLAVE
+[FreeStyle-SLAVE] $ /bin/sh -xe /tmp/jenkins14262264725234945049.sh
++ date
+Thu May 13 11:12:50 UTC 2021
+Finished: SUCCESS

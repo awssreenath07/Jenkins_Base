@@ -1,0 +1,8 @@
+Started by user [8mha:////4Nz4HoTdBaPISlmzQGWW/Aw5sJFfjRg4w0gd5QQIYia7AAAAnx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzeEgZh/dLi1CL9xPLi4qLU1LzEkgwDcwCZIIHPyAAAAA==[0mawssreenath07
+Running as SYSTEM
+Building in workspace /root/.jenkins/workspace/FreeStyle-DATE
+[FreeStyle-DATE] $ /bin/sh -xe /srinath/apache_Tomcat_8.5.60/apache-tomcat-8.5.60/temp/jenkins12718107207111236012.sh
++ date
+Thu May 13 09:42:22 UTC 2021
+Triggering a new build of [8mha:////4HKrfda359o/W9mZpbLLdSw/1Op8J0xwmP2gSjUd442eAAAAox+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyhEgYJ/az8JH23otTU4JLKnFTdzDSgvrTMdH0A0BYnC80AAAA=[0mFreeStyle-ifconfig
+Finished: SUCCESS

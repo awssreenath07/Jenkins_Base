@@ -1,0 +1,283 @@
+Started by user [8mha:////4Nz4HoTdBaPISlmzQGWW/Aw5sJFfjRg4w0gd5QQIYia7AAAAnx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzeEgZh/dLi1CL9xPLi4qLU1LzEkgwDcwCZIIHPyAAAAA==[0mawssreenath07
+Running as SYSTEM
+Building in workspace /root/.jenkins/workspace/FreeStyle-ifconfig
+Checking for pre-build
+Executing pre-build step
+Checking if email needs to be generated
+No emails were triggered.
+[FreeStyle-ifconfig] $ /bin/sh -xe /srinath/Apache_Tomcat_8.5.60/apache-tomcat-8.5.60/temp/jenkins4014069417921916102.sh
++ ifconfig
+eth0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 9001
+        inet 172.31.23.145  netmask 255.255.240.0  broadcast 172.31.31.255
+        inet6 fe80::890:59ff:fe0d:7af9  prefixlen 64  scopeid 0x20<link>
+        ether 0a:90:59:0d:7a:f9  txqueuelen 1000  (Ethernet)
+        RX packets 3878  bytes 856734 (836.6 KiB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 3634  bytes 2123410 (2.0 MiB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1000  (Local Loopback)
+        RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 0  bytes 0 (0.0 B)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+Checking for post-build
+Performing post-build step
+Checking if email needs to be generated
+Email was triggered for: Always
+Sending email for trigger: Always
+Sending mail from default account using custom from address jmstech28@gmail.com
+messageContentType = text/plain; charset=UTF-8
+Request made to attach build log
+Adding recipients from project recipient list
+Analyzing: jmstech28@gmail.com
+Looking for: jmstech28@gmail.com
+	starting at: 0
+	firstFoundIdx: 0
+	firstFoundIdx-substring: jmstech28@gmail.com
+	=> found type: 0
+Analyzing: jmstech28@gmail.com
+Looking for: jmstech28@gmail.com
+	starting at: 0
+	firstFoundIdx: 0
+	firstFoundIdx-substring: jmstech28@gmail.com
+	=> found type: 0
+Analyzing: jmstech28@gmail.com
+Looking for: jmstech28@gmail.com
+	starting at: 0
+	firstFoundIdx: 0
+	firstFoundIdx-substring: jmstech28@gmail.com
+	=> found type: 0
+Adding recipients from trigger recipient list
+Analyzing: jmstech28@gmail.com
+Looking for: jmstech28@gmail.com
+	starting at: 0
+	firstFoundIdx: 0
+	firstFoundIdx-substring: jmstech28@gmail.com
+	=> found type: 0
+Analyzing: jmstech28@gmail.com
+Looking for: jmstech28@gmail.com
+	starting at: 0
+	firstFoundIdx: 0
+	firstFoundIdx-substring: jmstech28@gmail.com
+	=> found type: 0
+Analyzing: jmstech28@gmail.com
+Looking for: jmstech28@gmail.com
+	starting at: 0
+	firstFoundIdx: 0
+	firstFoundIdx-substring: jmstech28@gmail.com
+	=> found type: 0
+Analyzing: jmstech28@gmail.com
+Looking for: jmstech28@gmail.com
+	starting at: 0
+	firstFoundIdx: 0
+	firstFoundIdx-substring: jmstech28@gmail.com
+	=> found type: 0
+Analyzing: jmstech28@gmail.com
+Looking for: jmstech28@gmail.com
+	starting at: 0
+	firstFoundIdx: 0
+	firstFoundIdx-substring: jmstech28@gmail.com
+	=> found type: 0
+Successfully created MimeMessage
+Sending email to: jmstech28@gmail.com
+DEBUG: getProvider() returning javax.mail.Provider[TRANSPORT,smtp,com.sun.mail.smtp.SMTPTransport,Oracle]
+DEBUG SMTP: need username and password for authentication
+DEBUG SMTP: protocolConnect returning false, host=smtp.gmail.com, user=root, password=<null>
+DEBUG SMTP: useEhlo true, useAuth true
+DEBUG SMTP: trying to connect to host "smtp.gmail.com", port 465, isSSL false
+220 smtp.gmail.com ESMTP z18sm441352qki.55 - gsmtp
+DEBUG SMTP: connected to host "smtp.gmail.com", port: 465
+EHLO ip-172-31-23-145.ec2.internal
+250-smtp.gmail.com at your service, [34.207.117.238]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+DEBUG SMTP: Found extension "SIZE", arg "35882577"
+DEBUG SMTP: Found extension "8BITMIME", arg ""
+DEBUG SMTP: Found extension "AUTH", arg "LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH"
+DEBUG SMTP: Found extension "ENHANCEDSTATUSCODES", arg ""
+DEBUG SMTP: Found extension "PIPELINING", arg ""
+DEBUG SMTP: Found extension "CHUNKING", arg ""
+DEBUG SMTP: Found extension "SMTPUTF8", arg ""
+DEBUG SMTP: protocolConnect login, host=smtp.gmail.com, user=jmstech28@gmail.com, password=<non-null>
+DEBUG SMTP: Attempt to authenticate using mechanisms: LOGIN PLAIN DIGEST-MD5 NTLM XOAUTH2 
+DEBUG SMTP: Using mechanism LOGIN
+DEBUG SMTP: AUTH LOGIN command trace suppressed
+DEBUG SMTP: AUTH LOGIN succeeded
+DEBUG SMTP: use8bit false
+MAIL FROM:<jmstech28@gmail.com>
+250 2.1.0 OK z18sm441352qki.55 - gsmtp
+DEBUG SMTP: sendPartial set
+RCPT TO:<jmstech28@gmail.com>
+250 2.1.5 OK z18sm441352qki.55 - gsmtp
+DEBUG SMTP: Verified Addresses
+DEBUG SMTP:   jmstech28@gmail.com
+DATA
+354  Go ahead z18sm441352qki.55 - gsmtp
+Date: Wed, 12 May 2021 17:03:42 +0000 (UTC)
+From: jmstech28@gmail.com
+Reply-To: jmstech28@gmail.com
+To: jmstech28@gmail.com
+Message-ID: <1950195525.2.1620839023631@ip-172-31-23-145.ec2.internal>
+Subject: FreeStyle-ifconfig - Build # 9 - Successful!
+MIME-Version: 1.0
+Content-Type: multipart/mixed; 
+	boundary="----=_Part_1_1712694434.1620839022637"
+X-Jenkins-Job: FreeStyle-ifconfig
+X-Jenkins-Result: SUCCESS
+List-ID: 
+
+------=_Part_1_1712694434.1620839022637
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+FreeStyle-ifconfig - Build # 9 - Successful:
+
+Check console output at http://54.204.168.253:9090/jenkins/job/FreeStyle-ifconfig/9/ to view the results.
+------=_Part_1_1712694434.1620839022637
+Content-Type: text/plain; charset=us-ascii; name=build.log
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=build.log
+
+Started by user awssreenath07
+Running as SYSTEM
+Building in workspace /root/.jenkins/workspace/FreeStyle-ifconfig
+Checking for pre-build
+Executing pre-build step
+Checking if email needs to be generated
+No emails were triggered.
+[FreeStyle-ifconfig] $ /bin/sh -xe /srinath/Apache_Tomcat_8.5.60/apache-tomcat-8.5.60/temp/jenkins4014069417921916102.sh
++ ifconfig
+eth0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 9001
+        inet 172.31.23.145  netmask 255.255.240.0  broadcast 172.31.31.255
+        inet6 fe80::890:59ff:fe0d:7af9  prefixlen 64  scopeid 0x20<link>
+        ether 0a:90:59:0d:7a:f9  txqueuelen 1000  (Ethernet)
+        RX packets 3878  bytes 856734 (836.6 KiB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 3634  bytes 2123410 (2.0 MiB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1000  (Local Loopback)
+        RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 0  bytes 0 (0.0 B)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+Checking for post-build
+Performing post-build step
+Checking if email needs to be generated
+Email was triggered for: Always
+Sending email for trigger: Always
+Sending mail from default account using custom from address jmstech28@gmail.com
+messageContentType = text/plain; charset=UTF-8
+Request made to attach build log
+Adding recipients from project recipient list
+Analyzing: jmstech28@gmail.com
+Looking for: jmstech28@gmail.com
+	starting at: 0
+	firstFoundIdx: 0
+	firstFoundIdx-substring: jmstech28@gmail.com
+	=> found type: 0
+Analyzing: jmstech28@gmail.com
+Looking for: jmstech28@gmail.com
+	starting at: 0
+	firstFoundIdx: 0
+	firstFoundIdx-substring: jmstech28@gmail.com
+	=> found type: 0
+Analyzing: jmstech28@gmail.com
+Looking for: jmstech28@gmail.com
+	starting at: 0
+	firstFoundIdx: 0
+	firstFoundIdx-substring: jmstech28@gmail.com
+	=> found type: 0
+Adding recipients from trigger recipient list
+Analyzing: jmstech28@gmail.com
+Looking for: jmstech28@gmail.com
+	starting at: 0
+	firstFoundIdx: 0
+	firstFoundIdx-substring: jmstech28@gmail.com
+	=> found type: 0
+Analyzing: jmstech28@gmail.com
+Looking for: jmstech28@gmail.com
+	starting at: 0
+	firstFoundIdx: 0
+	firstFoundIdx-substring: jmstech28@gmail.com
+	=> found type: 0
+Analyzing: jmstech28@gmail.com
+Looking for: jmstech28@gmail.com
+	starting at: 0
+	firstFoundIdx: 0
+	firstFoundIdx-substring: jmstech28@gmail.com
+	=> found type: 0
+Analyzing: jmstech28@gmail.com
+Looking for: jmstech28@gmail.com
+	starting at: 0
+	firstFoundIdx: 0
+	firstFoundIdx-substring: jmstech28@gmail.com
+	=> found type: 0
+Analyzing: jmstech28@gmail.com
+Looking for: jmstech28@gmail.com
+	starting at: 0
+	firstFoundIdx: 0
+	firstFoundIdx-substring: jmstech28@gmail.com
+	=> found type: 0
+Successfully created MimeMessage
+Sending email to: jmstech28@gmail.com
+DEBUG: getProvider() returning javax.mail.Provider[TRANSPORT,smtp,com.sun.mail.smtp.SMTPTransport,Oracle]
+DEBUG SMTP: need username and password for authentication
+DEBUG SMTP: protocolConnect returning false, host=smtp.gmail.com, user=root, password=<null>
+DEBUG SMTP: useEhlo true, useAuth true
+DEBUG SMTP: trying to connect to host "smtp.gmail.com", port 465, isSSL false
+220 smtp.gmail.com ESMTP z18sm441352qki.55 - gsmtp
+DEBUG SMTP: connected to host "smtp.gmail.com", port: 465
+EHLO ip-172-31-23-145.ec2.internal
+250-smtp.gmail.com at your service, [34.207.117.238]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+DEBUG SMTP: Found extension "SIZE", arg "35882577"
+DEBUG SMTP: Found extension "8BITMIME", arg ""
+DEBUG SMTP: Found extension "AUTH", arg "LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH"
+DEBUG SMTP: Found extension "ENHANCEDSTATUSCODES", arg ""
+DEBUG SMTP: Found extension "PIPELINING", arg ""
+DEBUG SMTP: Found extension "CHUNKING", arg ""
+DEBUG SMTP: Found extension "SMTPUTF8", arg ""
+DEBUG SMTP: protocolConnect login, host=smtp.gmail.com, user=jmstech28@gmail.com, password=<non-null>
+DEBUG SMTP: Attempt to authenticate using mechanisms: LOGIN PLAIN DIGEST-MD5 NTLM XOAUTH2 
+DEBUG SMTP: Using mechanism LOGIN
+DEBUG SMTP: AUTH LOGIN command trace suppressed
+DEBUG SMTP: AUTH LOGIN succeeded
+DEBUG SMTP: use8bit false
+MAIL FROM:<jmstech28@gmail.com>
+250 2.1.0 OK z18sm441352qki.55 - gsmtp
+DEBUG SMTP: sendPartial set
+RCPT TO:<jmstech28@gmail.com>
+250 2.1.5 OK z18sm441352qki.55 - gsmtp
+DEBUG SMTP: Verified Addresses
+DEBUG SMTP:   jmstech28@gmail.com
+DATA
+354  Go ahead z18sm441352qki.55 - gsmtp
+
+------=_Part_1_1712694434.1620839022637--
+.
+250 2.0.0 OK  1620839024 z18sm441352qki.55 - gsmtp
+DEBUG SMTP: message successfully delivered to mail server
+QUIT
+221 2.0.0 closing connection z18sm441352qki.55 - gsmtp
+Finished: SUCCESS

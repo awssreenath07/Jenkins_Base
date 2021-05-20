@@ -1,0 +1,20 @@
+commit 019ae36b0f4dc1be453ad13fda15bf3beb7c87b5
+tree 4d9ec05f7127a76bfb5f937f57d63f5636b574dd
+parent 89958c01680c2a8df3017606f93005b0f5c011cf
+author srinath <jmstech28@gmail.com> 2021-05-13 09:28:13 +0000
+committer srinath <jmstech28@gmail.com> 2021-05-13 09:28:13 +0000
+
+    iwayq-Mobile
+
+
+:100644 100644 8406b9d3cefb4e168caf8b6719725792572fdfff a1d3601cc94b42b3ff24025b45c573851ce4ea5c M	src/main/webapp/index.html
+commit 89958c01680c2a8df3017606f93005b0f5c011cf
+tree 2c992c846feeb9d328e16bc5ed7ed96dc63ef92f
+parent 1bd840b520c6561a32b7bff7e8197e4bdd1f306e
+author srinath <jmstech28@gmail.com> 2021-05-13 09:24:47 +0000
+committer srinath <jmstech28@gmail.com> 2021-05-13 09:24:47 +0000
+
+    iwayq-3
+
+
+:100644 100644 47d07832d5844b53c67140a9b1cd4f63400504b8 51095617d31b354f8f2e341f832bcbe3b313eb8c M	pom.xml

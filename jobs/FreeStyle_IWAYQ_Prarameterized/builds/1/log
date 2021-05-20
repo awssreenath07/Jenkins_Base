@@ -1,0 +1,76 @@
+Started by GitHub push by awssreenath07
+Running as SYSTEM
+Building in workspace /root/.jenkins/workspace/FreeStyle_IWAYQ_Prarameterized
+The recommended git tool is: NONE
+using credential GIT_JMS_CREDENTIALS
+Cloning the remote Git repository
+Cloning repository https://github.com/awssreenath07/iwayq.git
+ > git init /root/.jenkins/workspace/FreeStyle_IWAYQ_Prarameterized # timeout=10
+Fetching upstream changes from https://github.com/awssreenath07/iwayq.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.23.4'
+using GIT_ASKPASS to set credentials GIT_JMS_CREDENTAILS
+ > git fetch --tags --force --progress -- https://github.com/awssreenath07/iwayq.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/awssreenath07/iwayq.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 1bd840b520c6561a32b7bff7e8197e4bdd1f306e (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 1bd840b520c6561a32b7bff7e8197e4bdd1f306e # timeout=10
+Commit message: "iwayq-2"
+First time build. Skipping changelog.
+No emails were triggered.
+[FreeStyle_IWAYQ_Prarameterized] $ /root/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/MAVEN_HOME/bin/mvn package
+NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+[INFO] Scanning for projects...
+[8mha:////4KoImWWa1/yU1y+OuFlm6jJ70TwEyKSahHvzX5hOtqQgAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] 
+[8mha:////4KoImWWa1/yU1y+OuFlm6jJ70TwEyKSahHvzX5hOtqQgAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] Some problems were encountered while building the effective model for com.iwayq:iwayq:war:V1.0
+[8mha:////4KoImWWa1/yU1y+OuFlm6jJ70TwEyKSahHvzX5hOtqQgAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ line 42, column 33
+[8mha:////4KoImWWa1/yU1y+OuFlm6jJ70TwEyKSahHvzX5hOtqQgAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] 
+[8mha:////4KoImWWa1/yU1y+OuFlm6jJ70TwEyKSahHvzX5hOtqQgAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[8mha:////4KoImWWa1/yU1y+OuFlm6jJ70TwEyKSahHvzX5hOtqQgAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] 
+[8mha:////4KoImWWa1/yU1y+OuFlm6jJ70TwEyKSahHvzX5hOtqQgAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[8mha:////4KoImWWa1/yU1y+OuFlm6jJ70TwEyKSahHvzX5hOtqQgAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] 
+[INFO] 
+[INFO] --------------------------< com.iwayq:iwayq >---------------------------
+[INFO] Building sample Maven Webapp V1.0
+[INFO] --------------------------------[ war ]---------------------------------
+[INFO] 
+[8mha:////4GDFya73lKa/EbIL8fNdrB8WG13GPRK+x6hvSwLD6jjlAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ iwayq ---
+[8mha:////4KoImWWa1/yU1y+OuFlm6jJ70TwEyKSahHvzX5hOtqQgAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /root/.jenkins/workspace/FreeStyle_IWAYQ_Prarameterized/src/main/resources
+[INFO] 
+[8mha:////4GDFya73lKa/EbIL8fNdrB8WG13GPRK+x6hvSwLD6jjlAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ iwayq ---
+[INFO] No sources to compile
+[INFO] 
+[8mha:////4GDFya73lKa/EbIL8fNdrB8WG13GPRK+x6hvSwLD6jjlAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ iwayq ---
+[8mha:////4KoImWWa1/yU1y+OuFlm6jJ70TwEyKSahHvzX5hOtqQgAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /root/.jenkins/workspace/FreeStyle_IWAYQ_Prarameterized/src/test/resources
+[INFO] 
+[8mha:////4GDFya73lKa/EbIL8fNdrB8WG13GPRK+x6hvSwLD6jjlAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ iwayq ---
+[INFO] No sources to compile
+[INFO] 
+[8mha:////4GDFya73lKa/EbIL8fNdrB8WG13GPRK+x6hvSwLD6jjlAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ iwayq ---
+[INFO] No tests to run.
+[INFO] 
+[8mha:////4GDFya73lKa/EbIL8fNdrB8WG13GPRK+x6hvSwLD6jjlAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-war-plugin:2.0.1:war (default-war) @ iwayq ---
+[INFO] Exploding webapp...
+[INFO] Copy webapp webResources to /root/.jenkins/workspace/FreeStyle_IWAYQ_Prarameterized/target/iwayq
+[INFO] Assembling webapp iwayq in /root/.jenkins/workspace/FreeStyle_IWAYQ_Prarameterized/target/iwayq
+[INFO] Generating war /root/.jenkins/workspace/FreeStyle_IWAYQ_Prarameterized/target/iwayq.war
+[INFO] Building war: /root/.jenkins/workspace/FreeStyle_IWAYQ_Prarameterized/target/iwayq.war
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  2.097 s
+[INFO] Finished at: 2021-05-13T09:21:42Z
+[INFO] ------------------------------------------------------------------------
+[DeployPublisher][INFO] Attempting to deploy 1 war file(s)
+[DeployPublisher][INFO] Deploying /root/.jenkins/workspace/FreeStyle_IWAYQ_Prarameterized/target/iwayq.war to container Tomcat 8.x Remote with context IWAYQ-TECH
+  [/root/.jenkins/workspace/FreeStyle_IWAYQ_Prarameterized/target/iwayq.war] is not deployed. Doing a fresh deployment.
+  Deploying [/root/.jenkins/workspace/FreeStyle_IWAYQ_Prarameterized/target/iwayq.war]
+Email was triggered for: Always
+Sending email for trigger: Always
+Sending email to: jmstech28@gmail.com
+Finished: SUCCESS

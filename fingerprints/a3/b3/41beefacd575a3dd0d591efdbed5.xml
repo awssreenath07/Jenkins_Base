@@ -1,0 +1,29 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2021-05-13 04:17:17.980 UTC</timestamp>
+  <md5sum>a3b341beefacd575a3dd0d591efdbed5</md5sum>
+  <fileName>Credential id=GIT_JMS_CREDENTIALS name=awssreenath07/****** (GIT_JMS_CREDENTAILS)</fileName>
+  <usages>
+    <entry>
+      <string>FreeStyle-IWAYQ_Complete</string>
+      <ranges>1-7</ranges>
+    </entry>
+    <entry>
+      <string>FreeStyle-My_App-MAVEN</string>
+      <ranges>1-12</ranges>
+    </entry>
+    <entry>
+      <string>FreeStyle_IWAYQ_Prarameterized</string>
+      <ranges>1-2</ranges>
+    </entry>
+    <entry>
+      <string>FreeStyle-Hello_World-POLL-SCM</string>
+      <ranges>2-7</ranges>
+    </entry>
+    <entry>
+      <string>FreeStyle-Hello_World-WEBHOOK</string>
+      <ranges>1</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

@@ -1,0 +1,14 @@
+Started on May 13, 2021, 6:05:22 AM
+Started by event from 140.82.115.247 ⇒ http://52.90.21.62:7070/jenkins/github-webhook/ on Thu May 13 06:05:22 UTC 2021
+Using strategy: Default
+[poll] Last Built Revision: Revision 79e4257de5d2d239b9e2f51b938903448cfcaabf (refs/remotes/origin/master)
+The recommended git tool is: NONE
+using credential GIT_JMS_CREDENTIALS
+ > git --version # timeout=10
+ > git --version # 'git version 2.23.4'
+using GIT_ASKPASS to set credentials GIT_JMS_CREDENTAILS
+ > git ls-remote -h -- https://github.com/awssreenath07/my-app.git # timeout=10
+Found 1 remote heads on https://github.com/awssreenath07/my-app.git
+[poll] Latest remote head revision on refs/heads/master is: dda1d769a5137581000b883ffd2dcfcc3a21c503
+Done. Took 0.14 sec
+Changes found

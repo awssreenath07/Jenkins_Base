@@ -1,0 +1,13 @@
+Started on May 13, 2021, 2:00:00 PM
+Using strategy: Default
+[poll] Last Built Revision: Revision 4afc1f6dfb04e5c236db8d4047e3a7f0f9cac606 (refs/remotes/origin/master)
+The recommended git tool is: NONE
+using credential GIT_JMS_CREDENTIALS
+ > git --version # timeout=10
+ > git --version # 'git version 2.23.4'
+using GIT_ASKPASS to set credentials GIT_JMS_CREDENTAILS
+ > git ls-remote -h -- https://github.com/awssreenath07/Hello_world_java.git # timeout=10
+Found 2 remote heads on https://github.com/awssreenath07/Hello_world_java.git
+[poll] Latest remote head revision on refs/heads/master is: 4afc1f6dfb04e5c236db8d4047e3a7f0f9cac606 - already built by 7
+Done. Took 0.1 sec
+No changes

@@ -1,0 +1,38 @@
+Started by GitHub push by awssreenath07
+Running as SYSTEM
+Building in workspace /root/.jenkins/workspace/FreeStyle-Hello_World-WEBHOOK
+The recommended git tool is: NONE
+using credential GIT_JMS_CREDENTIALS
+Cloning the remote Git repository
+Cloning repository https://github.com/awssreenath07/Hello_world_java.git
+ > git init /root/.jenkins/workspace/FreeStyle-Hello_World-WEBHOOK # timeout=10
+Fetching upstream changes from https://github.com/awssreenath07/Hello_world_java.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.23.4'
+using GIT_ASKPASS to set credentials GIT_JMS_CREDENTAILS
+ > git fetch --tags --force --progress -- https://github.com/awssreenath07/Hello_world_java.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/awssreenath07/Hello_world_java.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 4afc1f6dfb04e5c236db8d4047e3a7f0f9cac606 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 4afc1f6dfb04e5c236db8d4047e3a7f0f9cac606 # timeout=10
+Commit message: "webhook-4"
+First time build. Skipping changelog.
+[FreeStyle-Hello_World-WEBHOOK] $ /bin/sh -xe /srinath/apache_Tomcat_8.5.60/apache-tomcat-8.5.60/temp/jenkins16885906096146247845.sh
++ javac Hello_World.java
++ java Hello_World
+NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+Hello Guys
+Welcome to Devops
+New Branch added for Bug-Fix
+Testing rebase-1
+Testing rebase-2
+Testing git fetch still pending
+To test merge in GUI
+Testing git fetch testing again
+Testing git fetch still pending
+New line added to test POLL-SCM
+New line added to test WEB-HOOK-4
+Finished: SUCCESS

@@ -1,0 +1,7 @@
+Started by user [8mha:////4Nz4HoTdBaPISlmzQGWW/Aw5sJFfjRg4w0gd5QQIYia7AAAAnx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzeEgZh/dLi1CL9xPLi4qLU1LzEkgwDcwCZIIHPyAAAAA==[0mawssreenath07
+Running as SYSTEM
+Building in workspace /root/.jenkins/workspace/FreeStyle-DATE
+[FreeStyle-DATE] $ /bin/sh -xe /srinath/Apache_Tomcat_8.5.60/apache-tomcat-8.5.60/temp/jenkins3766586001104971191.sh
++ date
+Wed May 12 12:53:12 UTC 2021
+Finished: SUCCESS

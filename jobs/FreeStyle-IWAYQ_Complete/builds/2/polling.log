@@ -1,0 +1,14 @@
+Started on May 13, 2021, 9:07:22 AM
+Started by event from 140.82.115.151 ⇒ http://34.229.121.153:7070/jenkins/github-webhook/ on Thu May 13 09:07:22 UTC 2021
+Using strategy: Default
+[poll] Last Built Revision: Revision 8506108590e8aedfc28d36682cf83a32127477b6 (refs/remotes/origin/master)
+The recommended git tool is: NONE
+using credential GIT_JMS_CREDENTIALS
+ > git --version # timeout=10
+ > git --version # 'git version 2.23.4'
+using GIT_ASKPASS to set credentials GIT_JMS_CREDENTAILS
+ > git ls-remote -h -- https://github.com/awssreenath07/iwayq.git # timeout=10
+Found 1 remote heads on https://github.com/awssreenath07/iwayq.git
+[poll] Latest remote head revision on refs/heads/master is: 1bd840b520c6561a32b7bff7e8197e4bdd1f306e
+Done. Took 0.13 sec
+Changes found

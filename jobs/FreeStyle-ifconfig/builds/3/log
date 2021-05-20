@@ -1,0 +1,28 @@
+Started by user [8mha:////4Nz4HoTdBaPISlmzQGWW/Aw5sJFfjRg4w0gd5QQIYia7AAAAnx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzeEgZh/dLi1CL9xPLi4qLU1LzEkgwDcwCZIIHPyAAAAA==[0mawssreenath07
+Running as SYSTEM
+Building in workspace /root/.jenkins/workspace/FreeStyle-ifconfig
+No emails were triggered.
+[FreeStyle-ifconfig] $ /bin/sh -xe /srinath/Apache_Tomcat_8.5.60/apache-tomcat-8.5.60/temp/jenkins14269483071440806046.sh
++ ifconfig
+eth0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 9001
+        inet 172.31.23.145  netmask 255.255.240.0  broadcast 172.31.31.255
+        inet6 fe80::890:59ff:fe0d:7af9  prefixlen 64  scopeid 0x20<link>
+        ether 0a:90:59:0d:7a:f9  txqueuelen 1000  (Ethernet)
+        RX packets 8996  bytes 2781528 (2.6 MiB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 7970  bytes 5915846 (5.6 MiB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1000  (Local Loopback)
+        RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 0  bytes 0 (0.0 B)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+Email was triggered for: Success
+Sending email for trigger: Success
+An attempt to send an e-mail to empty list of recipients, ignored.
+Finished: SUCCESS

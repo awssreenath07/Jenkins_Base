@@ -1,0 +1,14 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<org.sonatype.nexus.ci.config.GlobalNexusConfiguration plugin="nexus-jenkins-plugin@3.11.20210420-142258.bdfc332">
+  <nxrmConfigs>
+    <org.sonatype.nexus.ci.config.Nxrm3Configuration>
+      <id>NEXUS_SERVER</id>
+      <internalId>e4dd8c0c-41f2-496a-894f-383384c180cf</internalId>
+      <displayName>NEXUS_REPO</displayName>
+      <serverUrl>http://ec2-3-227-11-22.compute-1.amazonaws.com:8081/</serverUrl>
+      <credentialsId>nexus_credentails</credentialsId>
+    </org.sonatype.nexus.ci.config.Nxrm3Configuration>
+  </nxrmConfigs>
+  <iqConfigs/>
+  <instanceId>4ea4a76e26ba4c6e945ac08a1bac2a41</instanceId>
+</org.sonatype.nexus.ci.config.GlobalNexusConfiguration>

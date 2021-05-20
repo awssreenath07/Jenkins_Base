@@ -1,0 +1,43 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<flow-definition plugin="workflow-job@2.40">
+  <actions/>
+  <description></description>
+  <keepDependencies>false</keepDependencies>
+  <properties>
+    <org.jenkinsci.plugins.workflow.job.properties.PipelineTriggersJobProperty>
+      <triggers>
+        <com.cloudbees.jenkins.GitHubPushTrigger plugin="github@1.33.1">
+          <spec></spec>
+        </com.cloudbees.jenkins.GitHubPushTrigger>
+      </triggers>
+    </org.jenkinsci.plugins.workflow.job.properties.PipelineTriggersJobProperty>
+  </properties>
+  <definition class="org.jenkinsci.plugins.workflow.cps.CpsFlowDefinition" plugin="workflow-cps@2.90">
+    <script>pipeline{
+    agent any
+	tools {
+        maven &quot;MAVEN_HOME&quot;
+    }
+    stages{
+        stage(&apos;GIT&apos;){
+            steps{
+                git changelog: false, credentialsId: &apos;GIT_JMS_CREDENTIALS&apos;, poll: false, url: &apos;https://github.com/awssreenath07/iwayq.git&apos;
+            }
+        }
+        stages(&apos;MAVEN&apos;){
+            steps{
+                sh &quot;mvn build&quot;
+            }
+        }
+        stages(&apos;DEPLOY&apos;){
+            steps{
+                deploy adapters: [tomcat8(credentialsId: &apos;TOMCAT_8&apos;, path: &apos;&apos;, url: &apos;http://34.229.121.153:7070/&apos;)], contextPath: &apos;iwayq77&apos;, war: &apos;*.war&apos;
+            }
+        }
+    }
+}</script>
+    <sandbox>true</sandbox>
+  </definition>
+  <triggers/>
+  <disabled>false</disabled>
+</flow-definition>
